@@ -13,6 +13,7 @@ import rx.Observable;
  */
 
 public interface MovieService {
+    //臭臭是个大笨蛋
     @GET("top250")
     Observable<MovieModel> getTop250(@Query("start") int start, @Query("count")int count);
 }
